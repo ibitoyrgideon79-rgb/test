@@ -1,10 +1,24 @@
-
 {
   "rewrites": [
-    { "source": "/SNITIS", "destination": "https://nitis.vercel.app/nitis" },
-    { "source": "/SNITIS/(.*)", "destination": "https://nitis.vercel.app/nitis/$1" },
-    { "source": "/FMYDHUB", "destination": "https://https://fmydfeedb.vercel.app/" },
-    { "source": "/FMYDHUB/(.*)", "destination": "https://fmydfeedb.vercel.app/$1" },
-    { "source": "/(.*)", "destination": "https://nitis.vercel.app/$1" }
+    {
+      "source": "/FMYDHUB",
+      "destination": "https://fmydfeedb.vercel.app"
+    },
+    {
+      "source": "/FMYDHUB/(.*)",
+      "destination": "https://fmydfeedb.vercel.app/$1"
+    },
+    {
+      "source": "/SNITIS",
+      "destination": "https://snitis.vercel.app"
+    },
+    {
+      "source": "/SNITIS/(.*)",
+      "destination": "https://snitis.vercel.app/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://fmydfeedb.vercel.app/$1"
+    }
   ]
 }
