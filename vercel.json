@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/FMYDHUB",
-      "destination": "https://fmydfeedb.vercel.app"
+      "destination": "https://fmydfeedb.vercel.app/FMYDHUB"
     },
     {
       "source": "/FMYDHUB/(.*)",
-      "destination": "https://fmydfeedb.vercel.app/$1"
+      "destination": "https://fmydfeedb.vercel.app/FMYDHUB/$1"
     },
     {
       "source": "/SNITIS",
