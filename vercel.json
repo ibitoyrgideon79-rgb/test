@@ -8,6 +8,11 @@
       "source": "/FMYDHUB/(.*)",
       "destination": "https://fmydfeedb.vercel.app/$1"
     },
+
+    {
+      "source": "/(.*)",
+      "destination": "https://snitis.vercel.app/$1"
+    }
     {
       "source": "/SNITIS",
       "destination": "https://snitis.vercel.app"
