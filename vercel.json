@@ -1,12 +1,23 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/SNITIS",
+      "statusCode": 308
+    }
+  ],
   "rewrites": [
     {
       "source": "/FMYDHUB",
-      "destination": "https://fmydfeedb.vercel.app/FMYDHUB"
+      "destination": "https://fmydfeedb.vercel.app"
     },
     {
       "source": "/FMYDHUB/(.*)",
-      "destination": "https://fmydfeedb.vercel.app/FMYDHUB/$1"
+      "destination": "https://fmydfeedb.vercel.app/$1"
+    },
+    {
+      "source": "/FMYDHUB/_next/:path*",
+      "destination": "https://fmydfeedb.vercel.app/_next/:path*"
     },
     {
       "source": "/SNITIS",
