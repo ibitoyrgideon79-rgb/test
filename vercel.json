@@ -8,12 +8,20 @@
   ],
   "rewrites": [
     {
+      "source": "/FMYDHUB/_next/:path*",
+      "destination": "https://vercel.app*"
+    },
+    {
+      "source": "/FMYDHUB/static/:path*",
+      "destination": "https://vercel.app*"
+    },
+    {
       "source": "/FMYDHUB",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB"
+      "destination": "https://vercel.app"
     },
     {
       "source": "/FMYDHUB/:path*",
-      "destination": "https://vercel.app*"
+      "destination": "https://vercel.app/:path*"
     },
     {
       "source": "/SNITIS",
