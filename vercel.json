@@ -9,27 +9,19 @@
   "rewrites": [
     {
       "source": "/FMYDHUB",
-      "destination": "https://fmydfeedb.vercel.app/FMYDHUB"
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB"
     },
     {
-      "source": "/FMYDHUB/(.*)",
-      "destination": "https://fmydfeedb.vercel.app/FMYDHUB/$1"
-    },
-    {
-      "source": "/FMYDHUB/_next/:path*",
-      "destination": "https://fmydfeedb.vercel.app/FMYDHUB/_next/:path*"
+      "source": "/FMYDHUB/:path*",
+      "destination": "https://vercel.app*"
     },
     {
       "source": "/SNITIS",
-      "destination": "https://snitis.vercel.app"
+      "destination": "https://snitis.vercel.app/"
     },
     {
-      "source": "/SNITIS/(.*)",
-      "destination": "https://snitis.vercel.app/$1"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "https://snitis.vercel.app/$1"
+      "source": "/SNITIS/:path*",
+      "destination": "https://vercel.app*"
     }
   ]
 }
